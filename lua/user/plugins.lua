@@ -76,6 +76,15 @@ return packer.startup(function(use)
     -- Git
     use "lewis6991/gitsigns.nvim"
 
+    -- tree-sitter
+    use {
+      "nvim-treesitter/nvim-treesitter",
+      run = ":TSUpdate",
+    }
+    use "p00f/nvim-ts-rainbow"
+    use "windwp/nvim-autopairs"
+
+    use "numToStr/Comment.nvim"
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
     if PACKER_BOOTSTRAP then

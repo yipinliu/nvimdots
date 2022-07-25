@@ -51,6 +51,12 @@ keymap("n", "<leader>fh", "<cmd>lua require('telescope.builtin').help_tags()<cr>
 keymap("i", "jk", "<ESC>", opts)
 keymap("i", "<C-z>", ":u<cr>", opts)
 
+-- Comment
+-- keymap("i", "<C-/>", "<C-O>gcc", opts)
+-- keymap("i", "<C-S-/>", "<C-O>gbc", opts)
+-- keymap("n", "<C-/>", "gcc", opts)
+-- keymap("v", "<C-S-/>", "gbc", opts)
+
 -- Visual --
 -- Stay in indent mode
 keymap("v", "<", "<gv", opts)
