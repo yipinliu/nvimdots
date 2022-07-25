@@ -47,6 +47,7 @@ return packer.startup(function(use)
     use "kyazdani42/nvim-web-devicons"
     use "kyazdani42/nvim-tree.lua"
     use "nvim-lualine/lualine.nvim"
+    use "arkav/lualine-lsp-progress"
     use "akinsho/bufferline.nvim"
     use "akinsho/toggleterm.nvim"
 
