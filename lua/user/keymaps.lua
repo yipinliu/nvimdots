@@ -34,7 +34,7 @@ keymap("n", "<C-Left>", ":vertical resize +2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical resize -2<CR>", opts)
 
 keymap("n", "<C-r>", ":w | :luafile %<CR>", opts)
-keymap("n", "<C-1>", ":terminal", opts)
+keymap("n", "<C-z>", ":u<cr>", opts)
 
 -- Navigate buffers
 keymap("n", "<S-l>", ":bnext<CR>", opts)
@@ -43,7 +43,7 @@ keymap("n", "<S-h>", ":bprevious<cr>", opts)
 -- Insert --
 -- Press jk fast to enter
 keymap("i", "jk", "<ESC>", opts)
-keymap("i", "<C-`>", ":terminal", opts)
+keymap("i", "<C-z>", ":u<cr>", opts)
 
 -- Visual --
 -- Stay in indent mode
