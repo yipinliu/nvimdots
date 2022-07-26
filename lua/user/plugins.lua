@@ -50,7 +50,16 @@ return packer.startup(function(use)
     use "arkav/lualine-lsp-progress"
     use "akinsho/bufferline.nvim"
     use "akinsho/toggleterm.nvim"
-
+    use {
+      "folke/which-key.nvim",
+      config = function()
+        require("which-key").setup {
+          -- your configuration comes here
+          -- or leave it empty to use the default settings
+          -- refer to the configuration section below
+        }
+      end
+    }
     -- Color schemes --
     use 'navarasu/onedark.nvim'
 
@@ -74,6 +83,13 @@ return packer.startup(function(use)
 
     -- Telescope
     use "nvim-telescope/telescope.nvim"
+    use {"stevearc/dressing.nvim"}
+    use {
+        "mrjones2014/legendary.nvim",
+        config = function()
+            require("legendary").setup()
+        end
+    }
 
     -- Git
     use "lewis6991/gitsigns.nvim"
