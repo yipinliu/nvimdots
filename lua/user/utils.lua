@@ -1,8 +1,8 @@
 local plugins = {
-   "folke/which-key.nvim",
-    "Pocco81/auto-save.nvim",
-    "mrjones2014/legendary.nvim",
-
+   "which-key",
+    "auto-save",
+    "legendary",
+    "symbols-outline",
 }
 
 for i, name in ipairs(plugins) do

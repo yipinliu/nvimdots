@@ -52,6 +52,7 @@ return packer.startup(function(use)
     use "akinsho/toggleterm.nvim"
     use "folke/which-key.nvim"
     use "Pocco81/auto-save.nvim"
+    use 'simrat39/symbols-outline.nvim'
 
     -- Color schemes --
     use 'navarasu/onedark.nvim'
