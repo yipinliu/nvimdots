@@ -55,6 +55,7 @@ return packer.startup(function(use)
     use 'simrat39/symbols-outline.nvim'
     use {
        "nvim-neorg/neorg",
+        tag = "0.0.12",
         requires = "nvim-lua/plenary.nvim",
     }
 

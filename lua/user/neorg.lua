@@ -10,7 +10,7 @@ neorg.setup {
             config = {
                 workspaces = {
                     work = "D:/Documents/notes",
-                    home = "F:/notes",
+                    home = "F:/code/projects/my-docs/notes/home",
                 }
             }
         },
