@@ -53,6 +53,10 @@ return packer.startup(function(use)
     use "folke/which-key.nvim"
     use "Pocco81/auto-save.nvim"
     use 'simrat39/symbols-outline.nvim'
+    use {
+       "nvim-neorg/neorg",
+        requires = "nvim-lua/plenary.nvim",
+    }
 
     -- Color schemes --
     use 'navarasu/onedark.nvim'
