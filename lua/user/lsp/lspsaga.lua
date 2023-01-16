@@ -4,7 +4,7 @@ if not ok then
 end
 
 -- use default config
-saga.init_lsp_saga()
+saga.setup({})
 vim.keymap.set("n", "gh", "<cmd>Lspsaga lsp_finder<CR>", { silent = true,noremap = true})
 vim.keymap.set("n", "<A-CR>", "<cmd>Lspsaga code_action<CR>", { silent = true,noremap = true })
 vim.keymap.set("n", "K", "<cmd>Lspsaga hover_doc<CR>", { silent = true })
