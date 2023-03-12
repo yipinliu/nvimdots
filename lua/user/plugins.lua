@@ -53,11 +53,6 @@ return packer.startup(function(use)
     use "folke/which-key.nvim"
     use "Pocco81/auto-save.nvim"
     use 'simrat39/symbols-outline.nvim'
-    use {
-       "nvim-neorg/neorg",
-        tag = "0.0.12",
-        requires = "nvim-lua/plenary.nvim",
-    }
 
     -- Color schemes --
     use 'navarasu/onedark.nvim'
@@ -83,8 +78,8 @@ return packer.startup(function(use)
     -- Telescope
     use "nvim-telescope/telescope.nvim"
     use {"stevearc/dressing.nvim"}
-    use "mrjones2014/legendary.nvim"
 
+    use "mrjones2014/legendary.nvim"
     -- Git
     use "lewis6991/gitsigns.nvim"
 
