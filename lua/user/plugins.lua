@@ -67,7 +67,6 @@ local plugins = {
     -- tree-sitter
     {
       "nvim-treesitter/nvim-treesitter",
-      build = ":TSUpdate",
     },
     "p00f/nvim-ts-rainbow",
     "windwp/nvim-autopairs",
