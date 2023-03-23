@@ -9,7 +9,6 @@ configs.setup {
         "cpp",
         "markdown",
         "rust",
-        "lua",
         "haskell",
     },
     sync_install = false, 
